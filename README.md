@@ -6,7 +6,7 @@ ShopZilla will allow multiple shopping vendors to sale their products online.The
 
 I have used sqlite3 for database management
 Technology stack-
-->Python
+>->Python
 ->Flask Framework
 ->Sqlite3
 ->Html/Css
