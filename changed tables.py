@@ -6,9 +6,6 @@ conn = sqlite3.connect('database.db')
 
 
 
-"""
-conn.execute('''CREATE TABLE seller1(sId INTEGER PRIMARY KEY,name1 TEXT,price1 REAL,description1 TEXT,image1 TEXT,stock1 INTEGER,categoryId INTEGER,
-		FOREIGN KEY(categoryId) REFERENCES categories(categoryId))''')
 
 
 
