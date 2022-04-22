@@ -12,4 +12,4 @@ I have used sqlite3 for database management
 ->Html/Css
 ->Javascript for password verification
 
-!(https://miro.medium.com/max/1280/1*XzIRJGujfqAiOV2EIQgR_Q.png)
+![Flask](https://miro.medium.com/max/1280/1*XzIRJGujfqAiOV2EIQgR_Q.png)
