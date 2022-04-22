@@ -54,8 +54,7 @@ conn.execute('''CREATE TABLE order_ack(orderId INTEGER PRIMARY KEY,userId INTEGE
 		FOREIGN KEY(userId) REFERENCES users(userId),
 		FOREIGN KEY(productId) REFERENCES products(productId))''')
 
-conn.execute('''CREATE TABLE complaint1(userId INTEGER,orderId INTEGER,C_ID INTEGER PRIMARY KEY,description TEXT,feedback varchar(255),FOREIGN KEY(userId) REFERENCES users(userId),
-FOREIGN KEY(orderId) REFERENCES order_ack(orderId))''')
+
 
 
 conn.close()
