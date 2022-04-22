@@ -45,14 +45,8 @@ conn.execute('''CREATE TABLE categories
 		name TEXT
 		)''')
 
-conn.execute('''CREATE TABLE seller2(sId INTEGER PRIMARY KEY,seller_name TEXT,name1 TEXT,price1 REAL,description1 TEXT,image1 TEXT,stock1 INTEGER,categoryId INTEGER,
-		FOREIGN KEY(categoryId) REFERENCES categories(categoryId))''')
 
-conn.execute('''CREATE TABLE order_ack(orderId INTEGER PRIMARY KEY,userId INTEGER,
-		productId INTEGER,
-		purchased_date date,
-		FOREIGN KEY(userId) REFERENCES users(userId),
-		FOREIGN KEY(productId) REFERENCES products(productId))''')
+
 
 
 
